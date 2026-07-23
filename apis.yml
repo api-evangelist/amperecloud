@@ -1,7 +1,18 @@
 aid: amperecloud
 name: Amperecloud
-description: Amperecloud is a company surfaced as a portfolio company of point-nine and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Amperecloud (Amperecloud GmbH) is a German renewable-energy management
+  software company whose cloud platform provides an operating system for
+  monitoring, operating, and commercially managing solar, wind, and other
+  renewable-energy assets at scale. The platform brings asset performance
+  monitoring, maintenance and ticket management, commercial and technical asset
+  management, and virtual power plant (VPP) capabilities into a single system,
+  supported by migration, consulting, and custom-integration services. It is
+  used by more than 300 customers worldwide managing over 8,000 installations
+  and 10+ GWp of capacity. Added to the API Evangelist network as a point-nine
+  portfolio company; no public developer API, OpenAPI, or developer portal is
+  currently published, so this profile captures verified company identity and a
+  domain-security probe pending any future public API surface.
 url: https://raw.githubusercontent.com/api-evangelist/amperecloud/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,32 @@ x-backed-by:
 - point-nine
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://app.ampere.cloud/assets/favicon-32x32.png
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Renewable Energy
+- Energy
+- Solar
+- Wind
+- Asset Management
+- Virtual Power Plant
+- Monitoring
+- Cloud Platform
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/amperecloud-domain-security.yml
 - type: Website
-  url: https://ampere.cloud
+  url: https://www.amperecloud.com/
+- type: Login
+  url: https://app.ampere.cloud/
+- type: Pricing
+  url: https://www.amperecloud.com/de/prices
+- type: Support
+  url: https://knowledge.ampere.cloud/de
+- type: HelpCenter
+  url: https://knowledge.ampere.cloud/de
+- type: PrivacyPolicy
+  url: https://www.amperecloud.com/de/privacy
+- type: TermsOfService
+  url: https://www.amperecloud.com/de/imprint
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
