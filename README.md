@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Amperecloud is a company surfaced as a portfolio company of point-nine and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Amperecloud (Amperecloud GmbH) is a German renewable-energy management software company whose cloud platform provides an operating system for monitoring, operating, and commercially managing solar, wind, and other renewable-energy assets at scale. The platform brings asset performance monitoring, maintenance and ticket management, commercial and technical asset management, and virtual power plant (VPP) capabilities into a single system, supported by migration, consulting, and custom-integration services. It is used by more than 300 customers worldwide managing over 8,000 installations and 10+ GWp of capacity. Added to the API Evangelist network as a point-nine portfolio company; no public developer API, OpenAPI, or developer portal is currently published, so this profile captures verified company identity and a domain-security probe pending any future public API surface.
 
-Backed by: point-nine — https://ampere.cloud
+**Areas:** Company · Renewable Energy · Energy · Solar · Wind · Asset Management · Virtual Power Plant · Monitoring · Cloud Platform · Germany
+
+## Amperecloud on APIs.io
+
+Everything profiled for Amperecloud is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/amperecloud/](https://apis.io/providers/amperecloud/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Amperecloud Domain Security](https://apis.io/security/amperecloud/amperecloud-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.amperecloud.com/)
+- [Pricing](https://www.amperecloud.com/de/prices)
+- [Support](https://knowledge.ampere.cloud/de)
+- [Blog](https://www.amperecloud.com/news)
+- [Terms of service](https://www.amperecloud.com/de/imprint)
+- [Privacy policy](https://www.amperecloud.com/de/privacy)
+
+## API Evangelist rating
+
+**Kin Score 13.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 38.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.5** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/amperecloud/](https://apis.io/providers/amperecloud/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Amperecloud: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/amperecloud/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
